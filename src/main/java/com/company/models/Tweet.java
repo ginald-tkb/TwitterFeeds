@@ -12,11 +12,6 @@ public class Tweet {
         this.text = text;
     }
 
-    public void setAuthor(User author) {
-        author.addTweet(this);
-        this.author = author;
-    }
-
     public void setText(String text) {
         this.text = text;
     }

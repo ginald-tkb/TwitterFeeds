@@ -34,6 +34,10 @@ public class User implements Comparable<User> {
         this.followers.add(follower);
     }
 
+    public List<User> getFollowers() {
+        return followers;
+    }
+
     @Override
     public int compareTo(User u) {
         if (getName() == null || u.getName() == null) {
