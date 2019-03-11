@@ -7,6 +7,9 @@ task wrapper(type: Wrapper) {
 }
 
 apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.company.Main'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
