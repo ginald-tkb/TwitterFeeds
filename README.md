@@ -17,10 +17,10 @@ https://github.com/ginald-tkb/TwitterFeeds.git
    Gradle wrapper included in the repository to run project
 
 * Dependencies
-  src/main/resources/tweet.txt
-  src/main/resources/user.txt
-  src/test/resources/tweet.txt
-  src/test/resources/user.txt
+  - src/main/resources/tweet.txt
+  - src/main/resources/user.txt
+  - src/test/resources/tweet.txt
+  - src/test/resources/user.txt
 
 
 ```
